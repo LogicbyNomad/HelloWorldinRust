@@ -1,0 +1,16 @@
+// Run the current file through Python
+{
+	"version": "2.0.0",
+	
+	// The Python command
+	"command": "python",
+	
+	// Windows Python command
+	"windows": {
+		"command": "python.exe"
+	},
+	
+	
+	// args is the HelloWorld program to compile.
+	"args": ["${file}"]
+}
